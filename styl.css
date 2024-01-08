@@ -1,0 +1,64 @@
+body {
+    font-family: garamond;
+}
+
+#l1 {
+    height: 500px;
+    width: 25%;
+    background-color: lavender;
+}
+
+#l2 {
+    height: 300px;
+    width: 25%;
+    background-color: lavender;
+}
+
+#p1 {
+    height: 150px;
+    width: 75%;
+    background-color: indigo;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+
+#p2 {
+    height: 650px;
+    width: 75%;
+    background-color: lavender;
+    font-size: 200%;
+    text-align: center;
+}
+
+footer {
+    background-color: indigo;
+    color: white;
+    text-align: right;
+}
+
+ul {
+    list-style-type: square;
+}
+
+img {
+    padding: 5px;
+    margin: 10px;
+}
+
+img:hover {
+    padding: 4px;
+    border: solid 1px indigo;
+}
+
+/* Moje */
+main {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+p {
+    margin: 0;
+}
